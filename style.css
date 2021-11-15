@@ -1,0 +1,141 @@
+
+
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color:burlywood;
+
+}
+
+ul{
+    list-style-type: none;
+    background-color:black;
+    border-bottom:2px solid darkgrey;
+    height:59px;
+    display:flex;
+    align-items:center;
+    position:fixed;
+    width:100vw;
+    
+}
+ul img{
+    height:59px;
+}
+#logo{
+    color:white;
+    font-size:28px;
+    padding: 7px 923px 7px 7px;
+}
+li{
+    margin:0px;
+    padding:0px;
+}
+
+li a{
+    
+  
+    color:white;
+    padding: 10px 8px;
+    text-decoration:none;
+    font-size:28px;
+    
+}
+li a:hover {
+    background-color:bisque;
+    color:black;
+}
+.navigation{
+    height:59px;
+}
+.container{
+    min-height:72vh;
+    background-color:crimson;
+    color:white;
+    background-image:url(assests/music-girl.jpg);
+    background-size:cover;
+    margin:10px auto;
+    width:70vw;
+    padding:12px;
+    border:rgb(224, 125, 145) 2px solid ;
+    border-radius:12px;
+
+    
+} 
+
+.bottom{
+    background-color:rgb(0, 5, 0);
+    color:bisque;
+    height:65px;
+    width:100vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:fixed;
+    flex-direction:column;
+}
+.icons{
+    margin-top:8px;
+}
+.icons i{
+    height:20px;
+    width:20px;
+    padding-right:10px;
+    padding-left:10px;
+    cursor:pointer;
+    
+}
+#myProgressBar{
+    min-width:50vw;
+    cursor:pointer;
+}
+.songItem{
+    height:35px;
+    display:flex;
+    background-color:rgb(62, 187, 196);
+    color:rgb(0, 0, 0);
+    margin:12px 0px;
+    justify-content: space-between;
+    width:30%;
+    border-radius:20px;
+    align-items: center;
+}
+.songName{
+    
+    font-size: 25px;
+    font-family: 'Petemoss', 'cursive';
+}
+.songItem img{
+    border:2px solid rgb(4, 25, 70);
+    border-radius:30px;
+    height:30px;
+    max-width: 30px;
+}
+
+.Timestamp{
+    padding:8px;
+}
+.Timestamp i{
+    cursor:pointer;
+    padding-left:2px;
+}
+.songInfo{
+    position:absolute;
+    left:25vw;
+    top:24px;
+    
+}
+.songInfo img{
+    max-height:67px;
+    opacity:0;
+    transition: opacity 1s ease-in;
+}
+.masterSongName{
+    color:white;
+    font-size:15px;
+    position:absolute;
+    left:0vw;
+    top:6px;
+}

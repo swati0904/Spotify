@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Petemoss&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="navigation"><nav class="nav">
+        <ul><img src="assests/spotify_logo.png" alt="logo" class="brand"><span id="logo">Spotify</span>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+        </ul>
+    </nav>
+    </div>
+    <div class="container">
+        <div class="songList">
+            <h1> Album :Music is life</h1>
+            <div>
+                <div class="songItem">
+                    <img src="assests/mehfil-song.jpg" alt="1" >
+                    <span class="songName">Mehfil mein teri</span>
+                    <span class="songListPlay">
+                    <span class="Timestamp">5.34<i id="1" class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                    </span>
+                </div>
+                
+                
+                <div class="songItem">
+                    <img src="assests/Cover-2.jpg" alt="1" >
+                    <span class="songName">Aankhon mein teri</span>
+                    <span class="songListPlay">
+                    <span class="Timestamp">5.34<i id="2" class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="assests/Cover-3.jpg" alt="1" >
+                    <span class="songName">Khariyat pucho</span>
+                    <span class="songListPlay">
+                    <span class="Timestamp " >5.34<i id="3" class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                    </span>
+                </div>
+                
+                <div class="songItem">
+                    <img src="assests/Cover-4.jpg" alt="1" >
+                    <span class="songName">Qaffirana sa hien</span>
+                    <span class="songListPlay">
+                    <span class="Timestamp">5.34<i id="4" class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="assests/Cover-5.webp" alt="1" >
+                    <span class="songName">Phli dffaa</span>
+                    <span class="songListPlay">
+                    <span class="Timestamp">5.34<i id="5" class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="assests/Cover-6.jpg" alt="1" >
+                    <span class="songName">Tera yaar hun mein</span>
+                    <span class="songListPlay">
+                    <span class="Timestamp">5.34<i id="6" class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="assests/Cover-7.webp" alt="1" >
+                    <span class="songName">Sathiyaaa</span>
+                    <span class="songListPlay">
+                    <span class="Timestamp">5.34<i id="7" class="fas songItemPlay  fa-2x fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="assests/Cover-8.jpg" alt="1" >
+                    <span class="songName">Aaj sham mastani </span>
+                    <span class="songListPlay">
+                    <span class="Timestamp">5.34<i id="8" class="fas songItemPlay fa-2x fa-play-circle"></i></span>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+
+        
+        <div class="songbanner">
+
+        </div>
+
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar"  value="0" min="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fas fa-2x  fa-step-backward"></i>
+            <i  class="fas fa-2x fa-play-circle" id="masterPlay"></i>
+            <i id="next" class="fas fa-2x fa-step-forward"></i>
+        </div>
+        <div class="songInfo">
+            <img class="playing gif" src="assests/Cover-10.gif" alt="gif"  id="gif"
+            >
+            
+           
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
